@@ -104,3 +104,100 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: "Kern";
+  src: local("KernBold"),
+  url(../../public/assets/fonts/Kern-Bold.otf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kern";
+  src: local("KernBoldItalic"),
+  url(../../public/assets/fonts/Kern-BoldItalic.otf) format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Kern";
+  src: local("KernItalic"),
+  url(../../public/assets/fonts/Kern-Italic.otf) format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Kern";
+  src: local("KernMedium"),
+  url(../../public/assets/fonts/Kern-Medium.otf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Kern";
+  src: local("KernMediumItalic"),
+  url(../../public/assets/fonts/Kern-MediumItalic.otf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Kern";
+  src: local("KernRegular"),
+  url(../../public/assets/fonts/Kern-Regular.otf) format("truetype");
+  font-weight: 400;
+}
+
+/* HAFFER */
+
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferBold"),
+    url(../../public/assets/fonts/Haffer-Bold.otf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferHeavy"),
+  url(../../public/assets/fonts/Haffer-Heavy.otf) format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferLight"),
+  url(../../public/assets/fonts/Haffer-Light.otf) format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferMedium"),
+  url(../../public/assets/fonts/Haffer-Medium.otf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferRegular"),
+  url(../../public/assets/fonts/Haffer-Regular.otf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferSemiBold"),
+  url(../../public/assets/fonts/Haffer-SemiBold.otf) format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Haffer";
+  src: local("HafferThin"),
+  url(../../public/assets/fonts/Haffer-Thin.otf) format("truetype");
+  font-weight: 200;
+}
+
+.font-haffer {
+  font-family: "Haffer", sans-serif;
+}
+.font-kern {
+  font-family: "Kern", sans-serif;
+}
+body {
+  font-family: "Kern", sans-serif;
+}
+.card-shadow {
+  box-shadow: 0px 4.62329px 13.8699px rgb(0 0 0 / 16%);
+}
