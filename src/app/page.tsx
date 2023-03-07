@@ -18,6 +18,9 @@ import Refresh from "../../public/assets/images/refresh.png"
 import Timeline from "../../public/assets/images/timeline.png"
 import Badge from "../../public/assets/images/badge.png"
 import Artcryption from "../../public/assets/images/artcryption.png"
+import Twitter from "../../public/assets/images/twitter.svg"
+import Facebook from "../../public/assets/images/facebook.svg"
+import Instagram from "../../public/assets/images/instagram.svg"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +28,7 @@ export default function Home() {
   return (
     <>
       <div className="max-[1300px]:h-full h-[1440px] bg-[url('../../public/assets/images/banner.png')] bg-cover bg-center">
-        <div className="max-[800px]:pr-[10px] max-[800px]:pt-[20px] flex pr-[90px] text-white pt-[20px] items-center font-semibold justify-end font-kern text-[37px] leading-[44px]">
+        <div className="max-[800px]:pr-[10px] max-[800px]:pt-[20px] flex pr-[90px] text-white pt-[20px] items-center font-semibold justify-end text-[37px] leading-[44px]">
           <p className="text-white max-[650px]:text-[24px]">Enter</p>
           <figure>
             <Image
@@ -38,14 +41,14 @@ export default function Home() {
           </figure>
         </div>
         <h1 className="max-[650px]:text-[50px] max-[800px]:pt-[59px] max-[800px]:text-center max-[800px]:pl-0 text-[74px] pl-[100px] pt-[19px] font-bold leading-[66px] font-haffer text-white">artcryption</h1>
-        <p className="max-[650px]:text-[28px] text-[38px] max-[800px]:pt-[30px] max-[800px]:text-center max-[1300px]:text-end max-[1300px]:pr-[10px] max-[1300px]:pt-[30px] max-[1300px]:pl-0 pl-[875px] pt-[490px] text-center font-medium leading-[44px] font-kern text-white">nft dropping soon</p>
+        <p className="max-[650px]:text-[28px] text-[38px] max-[800px]:pt-[30px] max-[800px]:text-center max-[1300px]:text-end max-[1300px]:pr-[10px] max-[1300px]:pt-[30px] max-[1300px]:pl-0 pl-[875px] pt-[490px] text-center font-medium leading-[44px] text-white">nft dropping soon</p>
         <div className=" max-[800px]:pl-[10px]  max-[800px]:pt-[20px]  max-[800px]:text-center pl-[100px] pt-[150px]">
-          <p className="text-[23.6px] relative leading-[30px] font-kern max-[800px]:before:mx-auto before:content-[''] before:mb-[20px] before:border-t before:border-white before:w-[10%] before:block">Vitamin D,<br/> by AIMSIR Studio</p>
-          <p className="pt-[20px] font-kern text-[18.5px] leading-[30px] text-white">curated by Bompas & Parr & <br/> MA Creative & Louisa St. Pierre</p>
+          <p className="text-[23.6px] relative leading-[30px] max-[800px]:before:mx-auto before:content-[''] before:mb-[20px] before:border-t before:border-white before:w-[10%] before:block">Vitamin D,<br/> by AIMSIR Studio</p>
+          <p className="pt-[20px] text-[18.5px] leading-[30px] text-white">curated by Bompas & Parr & <br/> MA Creative & Louisa St. Pierre</p>
         </div>
         <div className="w-11/12 max-[650px]:mx-auto">
           <div className="max-[650px]:w-[80%] max-[1300px]:pb-10 max-[650px]:text-center max-[650px]:mx-auto w-[30%] mr-0 ml-auto">
-            <p className="pt-[250px] pb-[10px] font-kern text-[23.6px] leading-[30px] text-white">Join Waitlist</p>
+            <p className="pt-[250px] pb-[10px] text-[23.6px] leading-[30px] text-white">Join Waitlist</p>
             <div className="rounded-[10px] p-[5px] flex border border-white w-full text-black bg-transparent items-center">
               <input className="ml-[8px] pt-[6px] pb-[8px] h-[32px] text-[1rem] text-white w-full bg-transparent outline-none" type="text" placeholder="Enter your email" />
               <button className="p-[5px] text-[1.5rem]">
@@ -64,8 +67,8 @@ export default function Home() {
 
       <div className="max-w-[1440px] mx-auto">
         <div className="w-10/12 mx-auto">
-          <h2 className="pt-[80px] pb-[20px] font-kern text-[38px] font-semibold leading-[46px] text-black">Featured</h2>
-          <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
+          <h2 className="pt-[80px] pb-[20px] text-[38px] font-semibold leading-[46px] text-black">Featured</h2>
+          <div className="pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
             <p>Digital Canapés</p>
             <p className="-mt-[10px] -mb-[10px] text-[#707070] text-[14px] leading-[36px]">view</p>
           </div>
@@ -149,7 +152,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-10/12 mx-auto">
-          <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
+          <div className="pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
             <p>Digital Canapés</p>
           </div>
           <div className="flex flex-wrap">
@@ -232,7 +235,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-10/12 mx-auto">
-          <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
+          <div className="pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
             <p>Adam G</p>
           </div>
           <div className="flex flex-wrap">
@@ -438,28 +441,78 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="bg-[#dcdce0] text-black relative">
-        <h2 className="text-[110px] font-haffer font-bold pb-[20px] pl-[40px]">artcryption</h2>
-        <figure>
-          <Image
-            className="absolute top-0 right-[50px]"
-            src={Artcryption}
-            width={117}
-            height={121}
-            alt="UK flag"
-          />
-        </figure>
-        <div className="flex flex-wrap">
-          <div className="w-1/2">
-            <p className="text-[16px] leading-[22px] pt-[20px] pl-[40px]">Artcryption is a platform for creators to share, protect and sell their works showcasing the best in creativity.</p>
+      <footer className="bg-[#dcdce0] text-black">
+        <div className="max-w-[1440px] relative mx-auto">
+          <h2 className="text-[45px] sm:text-[60px] lg:text-[110px] font-haffer font-bold pb-[20px] pl-[20px] lg:pl-[40px] leading-[normal]">artcryption</h2>
+          <figure>
+            <Image
+              className="absolute top-[90px] -right-[10px] sm:top-0 sm:right-[50px]"
+              src={Artcryption}
+              width={117}
+              height={121}
+              alt="UK flag"
+            />
+          </figure>
+          <div className="flex flex-wrap pb-[20px] lg:pb-0">
+            <div className="w-full lg:w-4/12 xl:w-1/2">
+              <p className="w-[66.66%] lg:w-full text-[16px] leading-[22px] pt-[20px] pl-[20px] lg:pl-[40px]">Artcryption is a platform for creators to share, protect and sell their works showcasing the best in creativity.</p>
+            </div>
+            <div className="w-full py-6 lg:py-0 lg:w-3/12 xl:w-1/6">
+              <ul className="text-[16px] leading-[16px] pl-[20px] lg:pl-[90px]">
+                <li className="pb-[20px]">Drops</li>
+                <li className="pb-[20px]">About</li>
+                <li className="pb-[20px]">How It works</li>
+                <li className="pb-[20px]">Curators</li>
+                <li className="pb-[20px]">Feed</li>
+              </ul>
+            </div>
+            <div className="w-[80%] lg:w-5/12 pl-[20px] lg:pl-[40px] xl:w-4/12">
+              <p className="-mt-[20px] text-[16px] leading-[26px] pb-0 lg:pb-[20px] font-semibold">Newsletter</p>
+              <p className="w-[80%] text-[14px] text-[#6f6f6f] leading-[22px] pb-1 lg:pb-[35px]">Subscribe to join the waitlist and get latest news, drops and events.</p>
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
+                <div className="w-full">
+                  <input className="p-[4px] pl-[12px] py-[8px] border border-black w-full rounded-[10px] text-black outline-none bg-transparent" type="text"/>
+                </div>
+                <div className="mt-2 sm:mt-0 sm:pl-[20px] pr-[10px]">
+                  <button className="uppercase bg-black text-white h-[42px] min-w-[110px] w-full xl:w-[128px] text-[16px] leading-[28px] rounded-[10px] font-medium">Subscribe</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-1/6">
-            <ul>
-              <li>Drops</li>
-              <li>About</li>
-              <li>How It works</li>
-            </ul>
+        </div>
+        <div className="w-full flex flex-wrap p-[10px] bg-[#f5f5f5]">
+          <div className="flex w-full lg:w-4/12 justify-center lg:justify-start">
+            <figure className="ml-[10px]">
+              <Image
+                src={Twitter}
+                width={17}
+                height={17}
+                alt="UK flag"
+              />
+            </figure>
+            <figure className="ml-[10px]">
+              <Image
+                src={Facebook}
+                width={17}
+                height={17}
+                alt="UK flag"
+              />
+            </figure>
+            <figure className="ml-[10px]">
+              <Image
+                src={Instagram}
+                width={17}
+                height={17}
+                alt="UK flag"
+              />
+            </figure>
           </div>
+          <p className="lg:w-5/12 py-6 lg:py-0 text-center lg:text-start w-full text-[12px] text-black leading-[14px] lg:pl-[50px] tracking-[1.44px]">© Artcryption Inc. 2021, All Rights Reserved</p>
+          <ul className="lg:w-3/12 w-full px-[10px] flex justify-between items-center text-[12px] text-right uppercase">
+            <li>press</li>
+            <li>privacy</li>
+            <li>terms</li>
+          </ul>
         </div>
       </footer>
     </>
