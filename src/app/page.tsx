@@ -13,6 +13,11 @@ import Product8 from "../../public/assets/images/product8.png"
 import Product9 from "../../public/assets/images/product9.png"
 import Product10 from "../../public/assets/images/product10.png"
 import Product11 from "../../public/assets/images/product11.png"
+import Tick from "../../public/assets/images/tick.png"
+import Refresh from "../../public/assets/images/refresh.png"
+import Timeline from "../../public/assets/images/timeline.png"
+import Badge from "../../public/assets/images/badge.png"
+import Artcryption from "../../public/assets/images/artcryption.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +47,7 @@ export default function Home() {
           <div className="max-[650px]:w-[80%] max-[1300px]:pb-10 max-[650px]:text-center max-[650px]:mx-auto w-[30%] mr-0 ml-auto">
             <p className="pt-[250px] pb-[10px] font-kern text-[23.6px] leading-[30px] text-white">Join Waitlist</p>
             <div className="rounded-[10px] p-[5px] flex border border-white w-full text-black bg-transparent items-center">
-              <input className="ml-[8px] pt-[6px] pb-[8px] h-[32px] text-[1rem] w-full bg-transparent" type="text" placeholder="Enter your email" />
+              <input className="ml-[8px] pt-[6px] pb-[8px] h-[32px] text-[1rem] text-white w-full bg-transparent outline-none" type="text" placeholder="Enter your email" />
               <button className="p-[5px] text-[1.5rem]">
               <Image
                 className=""
@@ -57,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-[1440px] mx-auto overflow-hidden">
+      <div className="max-w-[1440px] mx-auto">
         <div className="w-10/12 mx-auto">
           <h2 className="pt-[80px] pb-[20px] font-kern text-[38px] font-semibold leading-[46px] text-black">Featured</h2>
           <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
@@ -158,8 +163,8 @@ export default function Home() {
                   alt="UK flag"
                 />
                 <div className="pl-[8px] pt-[3px] pr-[10px]">
-                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
-                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Ovocence</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Jérémy Hervo</p>
                   <div className="flex justify-between lg:flex-col items-start xl:flex-row">
                     <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
                     <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
@@ -177,8 +182,8 @@ export default function Home() {
                   alt="UK flag"
                 />
                 <div className="pl-[8px] pt-[3px] pr-[10px]">
-                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin C</p>
-                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Canapé#1</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Jérémy Hervo</p>
                   <div className="flex justify-between lg:flex-col items-start xl:flex-row">
                     <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
                     <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
@@ -196,8 +201,8 @@ export default function Home() {
                   alt="UK flag"
                 />
                 <div className="pl-[8px] pt-[3px] pr-[10px]">
-                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin D</p>
-                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Canapé#2</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Jérémy Hervo</p>
                   <div className="flex justify-between lg:flex-col items-start xl:flex-row">
                     <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
                     <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
@@ -215,8 +220,91 @@ export default function Home() {
                   alt="UK flag"
                 />
                 <div className="pl-[8px] pt-[3px] pr-[10px]">
-                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
-                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Canapé#3</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Jérémy Hervo</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-10/12 mx-auto">
+          <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
+            <p>Adam G</p>
+          </div>
+          <div className="flex flex-wrap">
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product8}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Anglerfish 2019</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Adam G</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product9}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Chris-Crossing</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Adam G</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product10}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Crowbar 2019</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Adam G</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product11}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]" title="Desert Session 2021">Desert Session ...</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">Adam G</p>
                   <div className="flex justify-between lg:flex-col items-start xl:flex-row">
                     <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
                     <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
@@ -227,6 +315,153 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="max-w-[1440px] mx-auto text-black">
+        <div className="w-10/12 mx-auto">
+          <h2 className="pt-[80px] pb-[20px] text-[38px] leading-[46px] font-bold">Why Artcryption?</h2>
+          <p className="pt-[20px] pb-[40px] text-[34px] leading-[36px] font-medium">Sell, protect and share your NFTs, creative assets & IP online</p>
+          <div className="flex flex-wrap">
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Tick}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Time-Stamped Digital Certificates</p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Tick}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Create NFTs and one-of-a-kind collectibles</p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Tick}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Resale Royalties & Split Royalties</p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Refresh}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Interoperable</p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Timeline}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Track buyers, provenance and price history</p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-[80%] px-0 lg:px-[25px] p-[25px] text-[22px] leading-[1] flex">
+                <figure className="mr-[20px] min-w-[35px]">
+                  <Image
+                    src={Badge}
+                    width={35}
+                    height={35}
+                    alt="UK flag"
+                  />
+                </figure>
+                <p>Alternative copyright protection</p>
+              </div>
+            </div>
+          </div>
+          <div className="pt-[38px] pb-[19px]">
+            <p>Join Our Community</p>
+            <div>
+              <button className="my-[10px] mr-[10px] p-[7px] px-[12px] text-[14px] leading-[24px] rounded-[20px] border border-black">LinkedIn</button>
+              <button className="my-[10px] mr-[10px] p-[7px] px-[12px] text-[14px] leading-[24px] rounded-[20px] border border-black">Instagram</button>
+              <button className="my-[10px] mr-[10px] p-[7px] px-[12px] text-[14px] leading-[24px] rounded-[20px] border border-black">Discord</button>
+              <button className="my-[10px] mr-[10px] p-[7px] px-[12px] text-[14px] leading-[24px] rounded-[20px] border border-black">Twitter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-black text-white pt-[60px] pb-[40px]">
+        <div className="flex justify-center flex-wrap">
+          <div className="w-full text-center lg:text-start lg:w-2/12">
+            <p className="text-[36px] leading-[43px] pt-[10px] font-semibold">Join Waitlist</p>
+          </div>
+
+          <div className="sm:w-2/3 lg:w-5/12 lg:pl-[20px] pt-5 lg:pt-[7px]">
+            <div className="w-[300px] sm:w-[79%] mx-auto lg:ml-0">
+              <div className="rounded-[15px] p-[5px] flex border border-white text-black bg-transparent items-center mb-[10px] mt-[3]">
+                <input className="ml-[8px] pt-[6px] pb-[8px] h-[32px] text-[1rem] text-white w-full bg-transparent outline-none" type="text" placeholder="Enter your email" />
+                <button className="p-[5px] text-[1.5rem]">
+                  <Image
+                    className=""
+                    src={Arrow}
+                    width={24}
+                    height={24}
+                    alt="UK flag"
+                  />
+                </button>
+              </div>
+              <p className="pl-[10px] pt-[5px] text-[12px] leading-[14px]">Subscribe to join waitlist and also get access to the latest news and drops</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer className="bg-[#dcdce0] text-black relative">
+        <h2 className="text-[110px] font-haffer font-bold pb-[20px] pl-[40px]">artcryption</h2>
+        <figure>
+          <Image
+            className="absolute top-0 right-[50px]"
+            src={Artcryption}
+            width={117}
+            height={121}
+            alt="UK flag"
+          />
+        </figure>
+        <div className="flex flex-wrap">
+          <div className="w-1/2">
+            <p className="text-[16px] leading-[22px] pt-[20px] pl-[40px]">Artcryption is a platform for creators to share, protect and sell their works showcasing the best in creativity.</p>
+          </div>
+          <div className="w-1/6">
+            <ul>
+              <li>Drops</li>
+              <li>About</li>
+              <li>How It works</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
