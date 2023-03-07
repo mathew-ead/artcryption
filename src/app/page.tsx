@@ -3,6 +3,16 @@ import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Arrow from "../../public/assets/images/arrow.png"
 import Product1 from "../../public/assets/images/product1.png"
+import Product2 from "../../public/assets/images/product2.png"
+import Product3 from "../../public/assets/images/product3.png"
+import Product4 from "../../public/assets/images/product4.png"
+import Product5 from "../../public/assets/images/product5.png"
+import Product6 from "../../public/assets/images/product6.png"
+import Product7 from "../../public/assets/images/product7.png"
+import Product8 from "../../public/assets/images/product8.png"
+import Product9 from "../../public/assets/images/product9.png"
+import Product10 from "../../public/assets/images/product10.png"
+import Product11 from "../../public/assets/images/product11.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -54,22 +64,162 @@ export default function Home() {
             <p>Digital Canapés</p>
             <p className="-mt-[10px] -mb-[10px] text-[#707070] text-[14px] leading-[36px]">view</p>
           </div>
-          <div>
-            <div className="px-[10px] text-black w-1/4">
-              <div className="card-shadow h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+          <div className="flex flex-wrap">
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
                 <Image
-                  className="max-[650px]:pt-[5px] pt-[10px] ml-[10px]"
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
                   src={Product1}
                   width={220}
                   height={220}
                   alt="UK flag"
                 />
-                <div className="pl-[8px] pr-[10px]">
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
                   <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
                   <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
                     <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
-                    <button className="leading-[20px] text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product2}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin C</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product3}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin D</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product1}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-10/12 mx-auto">
+          <div className="font-kern pt-[50px] text-black pb-[20px] pr-[13px] text-end text-[28px] leading-[36px]">
+            <p>Digital Canapés</p>
+          </div>
+          <div className="flex flex-wrap">
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product4}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product5}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin C</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product6}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin D</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[10px] text-black py-[20px] lg:py-0 w-full sm:w-1/2 lg:w-1/4">
+              <div className="w-[250px] mx-auto lg:w-full card-shadow xl:h-[340px] rounded-[15px] p-[16px] pb-[24px]">
+                <Image
+                  className="w-[220px] h-[220px] max-h-full max-w-full object-cover mx-auto"
+                  src={Product7}
+                  width={220}
+                  height={220}
+                  alt="UK flag"
+                />
+                <div className="pl-[8px] pt-[3px] pr-[10px]">
+                  <p className="pt-[10px] text-[20px] leading-[20px]">Vitamin A</p>
+                  <p className="text-[#707070] pt-[3px] text-[14px] leading-[16px]">AIMSIR Studio</p>
+                  <div className="flex justify-between lg:flex-col items-start xl:flex-row">
+                    <p className="text-[#ba7e86] text-[18px] leading-[20px] pt-[10px] font-bold">TBD ETH</p>
+                    <button className="leading-[20px] lg:mt-3 xl:mt-0 text-[16px] pb-[10px] pt-[8px] px-[25px] border-0 bg-[#6f6f6f] rounded-[22px] text-white">Waitlist</button>
                   </div>
                 </div>
               </div>
